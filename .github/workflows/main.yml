@@ -1,13 +1,15 @@
 name: Publish And Deploy Demo
+# 何时触发
 on:
   push:
     tags:
       - 'v*'
 
+# 触发后执行的操作
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-    steps:
+    steps:  # 下面是步骤
 
     # 下载源码
     - name: Checkout
