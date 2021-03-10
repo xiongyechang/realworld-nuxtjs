@@ -60,9 +60,9 @@ export default {
   data () {
     return {
       user: {
-        username: '',
-        email: 'lpzmail@163.com',
-        password: '12345678'
+        username: 'xiongyechang',
+        email: '2226791767@qq.com',
+        password: '000000'
       },
       errors: {} // 错误信息
     }
